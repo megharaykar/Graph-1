@@ -77,7 +77,7 @@ class Solution:
             r = dir[0] + i
             c = dir[1] + j
             
-            while r >=0 and c >= 0 and r < self.m and c < self.n and maze[r][c] != -1:
+            while r >= 0 and c >= 0 and r < self.m and c < self.n and maze[r][c] != 1:
                 r += dir[0]
                 c += dir[1]
             
